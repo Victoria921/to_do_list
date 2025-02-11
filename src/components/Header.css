@@ -1,0 +1,32 @@
+.Header-logo {
+    position: fixed;
+    left: 5%;
+    height: 13%;
+}
+
+.Header-title {
+    background-color: #490000;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: calc(10px + 2vmin);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+@keyframes Header-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .Header-logo {
+        animation: Header-logo-spin infinite 20s linear;
+    }
+}

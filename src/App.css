@@ -1,10 +1,21 @@
 .App {
-  text-align: center;
+  width: 100vW;
+  height: 100vh;
+  background-color: #000000;
 }
-
+main {
+  background-color: black;
+}
 .App-logo {
-  height: 40vmin;
+  height: 70%;
   pointer-events: none;
+}
+.App-title {
+  font-family: Georgia, 'Times New Roman', Ti mes, serif;
+}
+.App-title-div {
+  position: relative;
+  justify-self: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,11 +26,10 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 15vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  flex-direction: row;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +45,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: "Crumble";   /*Can be any text*/
+  src: local("DkCrayonCrumble"),
+    url("./fonts/DkCrayonCrumble-ddll.ttf") format("truetype");
 }

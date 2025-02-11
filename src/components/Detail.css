@@ -1,0 +1,61 @@
+.detail-main {
+    margin: auto;
+    height: 75%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.detail-div {
+    border-radius: 16px;
+}
+
+
+.detail-h1 {
+    text-align: center;
+}
+
+.detail-buttons-div {
+    display: flex;
+    justify-content: space-around;
+    height: 10%;
+}
+
+.detail-title-date {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.detail-description {
+    margin-left: 15px;
+}
+
+.edit-buttons-div {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    height: 10%;
+}
+
+
+
+.detail-btn-return {
+    margin-top: 20px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 16px;
+    color: white;
+    background-color: darkred;
+}
+
+.detail-btn-edit {
+    margin-top: 20px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 16px;
+    color: white;
+    background-color: darkorange;
+
+}
+ 
